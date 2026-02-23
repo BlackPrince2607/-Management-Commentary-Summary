@@ -42,6 +42,7 @@ async def analyze(request: Request, file: UploadFile = File(...)):
             "filename": file.filename,
             "request": request,
             "data": result
+            
         }
     )
 
